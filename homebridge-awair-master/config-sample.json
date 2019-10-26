@@ -1,0 +1,31 @@
+{
+	"bridge": {
+		"name": "Homebridge",
+		"username": "AA:BB:CC:DD:EE:FF",
+		"port": 51827,
+		"pin": "031-45-154"
+	},
+	
+	"description": "An example Homebridge config for Awair.",
+	
+	"accessories": [
+		{
+			"accessory": "Awair",
+			"name": "Example Room 5 Awair 2nd Edition",
+			"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNjEyNTgifQ.iQqLrNT7XUimh1mkRP9rccTxPk_LIHpZBSikSi1RdZ8",
+			"manufacturer": "Awair",
+			"devType": "awair-r2",
+			"devId": "rhkdgks48@gmail.com",
+			"serial": "example-serial_127",
+			"model": "Awair 2nd Edition",
+			"carbonDioxideThreshold": 1200,
+			"carbonDioxideThresholdOff": 1000,
+			"voc_mixture_mw": 72.66578273019740,
+			"air_quality_method": "awair-score",
+			"userType": "users/self",
+			"endpoint": "15-min-avg",
+			"polling_interval": 900,
+			"limit": 12
+		}
+	]
+}
