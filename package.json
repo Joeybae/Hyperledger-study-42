@@ -1,0 +1,23 @@
+{
+  "name": "42st",
+  "version": "1.0.0",
+  "description": "",
+  "main": "awair.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joeybae/Hyperledger-study-42.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joeybae/Hyperledger-study-42/issues"
+  },
+  "homepage": "https://github.com/Joeybae/Hyperledger-study-42#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0"
+  }
+}
